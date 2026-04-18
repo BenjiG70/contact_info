@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Markus Benjamin Tabler - Kontaktkarte</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log('Service Worker registriert'))
+        .catch(err => console.log('Fehler: ', err));
+    });
+  }
+</script>
+
+<body>
+  <div class="card">
+
+    <h1>Markus Benjamin Tabler</h1>
+    <p>
+        IT Business Consultant Produktionssteuerung <br>
+        Schwarz Produktion Stiftung & Co. KG <br>
+        Langendorfer Straße 23, 06668 Weißenfels, Deutschland
+    </p>
+
+    <a class="btn primary" href="vcard.vcf">Kontakt speichern</a>
+
+    <a class="btn secondary" href="https://www.linkedin.com/in/markus-benjamin-tabler-849a0b2ba/?skipRedirect=true" target="_blank">
+      LinkedIn Profil
+    </a>
+
+    <a class="btn secondary" href="https://www.linkedin.com/company/schwarz-produktion-stiftung-co-kg/posts/?feedView=all" target="_blank">
+      LinkedIn Schwarz Produktion
+    </a>
+
+  </div>
+</body>
+</html>

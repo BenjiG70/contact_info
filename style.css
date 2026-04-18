@@ -1,0 +1,57 @@
+body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0b0b0b;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 28px;
+    }
+
+    p {
+      margin: 0 0 20px;
+      color: #ddd;
+      font-size: 14px;
+    }
+
+    .btn {
+        display: block;
+        padding: 16px; /* Etwas größer für Daumen-Bedienung */
+        margin: 12px 0;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.1s ease; /* Sanftes Drück-Gefühl */
+    }
+
+    .btn:active {
+        transform: scale(0.96);
+        opacity: 0.8;
+    }
+
+    p {
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .primary {
+      background: #ffffff;
+      color: #000;
+    }
+
+    .secondary {
+      background: #1f1f1f;
+      color: #fff;
+    }

@@ -1,0 +1,26 @@
+{
+  "name": "Kontaktkarte Markus Benjamin Tabler",
+  "short_name": "Kontaktkarte Markus Benjamin Tabler",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b0b0b",
+  "theme_color": "#0b0b0b",
+  "icons": [
+    {
+      "src": "firmenlogo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "firmenlogo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "firmenlogo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
