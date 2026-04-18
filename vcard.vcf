@@ -1,10 +1,15 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Benji;;;;
-FN:Benji
-ORG:Dein Unternehmen
-TITLE:Web Developer
-EMAIL:you@mail.com
-TEL:+49...
-URL:https://www.linkedin.com/in/DEIN-LINKEDIN
+N:Tabler;Markus;Benjamin;;
+FN:Markus Benjamin Tabler
+ORG:Schwarz Produktion Stiftung & Co. KG
+TITLE:IT-BC Produktionssteuerung
+EMAIL;TYPE=INTERNET,WORK:markus_benjamin.tabler@schwarz-produktion.com
+TEL;TYPE=CELL,VOICE:+491739700871
+ADR;TYPE=WORK:;;Langendorfer Straße 23;Weißenfels;;06668;Deutschland
+URL;TYPE=WORK:https://www.schwarz-produktion.com
+URL;TYPE=Personal:https://bybenji.de
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/markus-benjamin-tabler-849a0b2ba/
+NOTE:IT Business Consultant | Produktionssteuerung
+REV:2026-04-18T22:00:00Z
 END:VCARD
