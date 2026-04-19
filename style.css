@@ -55,3 +55,20 @@ body {
       background: #1f1f1f;
       color: #fff;
     }
+    .expertise-container {
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .tag {
+        display: inline-block;
+        padding: 6px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3); /* Dezenter weißer Rand */
+        border-radius: 20px;
+        font-size: 0.85rem;
+        color: #cccccc;
+        background-color: rgba(255, 255, 255, 0.05); /* Ganz leichter Hintergrund */
+    }
